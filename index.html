@@ -1,100 +1,78 @@
 <head>
-	<title> Rainybot </title>
-	<link rel="icon" href="icon.jpg">
-	<style type="text/css">
-		body{
-			background-color : white;
-			font-family : 'Quicksand' , sans-serif;
-			background-image : url("webbg.jpg");
-			font-weight: bold;
-		}
-		.features{
-			background-color : #8f137c;
-			margin-left : 1%;
-			margin-right : 10%;
-			font-size : 20px;
-			border-style: solid;
-			border-width : 5px;
-			padding : 25px;
-			border-radius : 10%;
-			height : auto;
-
-		}
-		.button{
-			border-style : solid;
-			border-width: 2px;
-			border-radius : 7%;
-			padding : 5px;
-			text-decoration: none;
-			background-color : lightgreen;
-			font-size : 20;
-			color : black;
-		}
-		.button:hover{
-			opacity:1;
-			background-color: #cfffe0;
-		}
-		.main{
-			background-color : #e800c5;
-			margin-left : 5%;
-			margin-right : 5%;
-			border-style : solid;
-			border-radius : 30px;
-			padding : 30px;
-		}
-		.icon{
-			width: 100;
-			height : auto;
-		}
-		.scr{
-			width : 600px;
-			height : auto;
-			margin-left : 1%;
-			border-style : double;
-		}
-		.hr{
-			background-color : black;
-			border-width: 0;
-			height : 2px;
-			margin-left : 0%;
-			width : 90%;
-		}
-		.credits{
-			border-radius : 30px;
-			margin-right : 50%;
-			margin-left : 1%;
-			background-color : #ff4fbc;
-			border-style : solid;
-			word-wrap : break-word;
-			padding : 6px;
-			height : 30%;
-		}
-		.icons{
-			width : 50px;
-			height : auto;
-			float : left;
-		}
-	
-	</style>
-	 <link rel="preconnect" href="https://fonts.gstatic.com">
+	<title> Rainy bot official website </title>
+		 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand&display=swap" rel="stylesheet"> 
+<style>
+	.button{
+		border-style : none;
+		transition: 0.5s;
+		opacity: 0.6;
+		background-color: #08ff94;
+		text-decoration: none;
+		height: 100%;
+		padding : 38px;
+		color : black;
+		font-family: "Nanum Gothic";
+		font-size : 34;
+
+	}
+	.banner{
+		position: absolute;
+		top : 0;
+		left : 0;
+	}
+	.button:hover{
+		opacity: 50;
+	}
+	body{
+		color : white;
+		font-family : 'Nanum Gothic';
+		background-color : #2a302d;
+	}
+	td , th{
+		padding : 8px;
+		border-style : solid;
+	}
+	th{
+		background-color : #698a80 ;
+	}
+	#command{
+		border-collapse: collapse;
+	}
+</style>
 </head>
 
 <body>
-	<div class='main'>
-	<a href="https://discord.com/api/oauth2/authorize?client_id=846007500716113920&permissions=8&scope=bot" class="button">Invite rainy into your server</a>
-	<br></br>
-	<a href="commands.html" class='button'>Commands</a>
-	<br></br>
-	<br></br>
-	<h3> Rainy is a utility bot. You can search wikipedia with this bot and check weather in your city and some more features!.<br></br>
-		Prefix : *
-	</h3>
-	<hr class='hr'>
-	<br></br>
-	<a href="https://discordbotlist.com/bots/846007500716113920"><img src="https://discordbotlist.com/api/v1/bots/846007500716113920/widget"></a>
-	<h3> Features of this bot : </h3>
-	<div class="features">
+	<div class='banner'>
+	<a href='index.html#introduction' class='button'>Introduction </a>
+	<a href='index.html#features' class='button'>Features </a>
+	<a href='index.html#commands' class='button'>Commands </a>
+	<a href="https://discord.com/api/oauth2/authorize?client_id=846007500716113920&permissions=8&scope=bot" class="button">Invite</a>
+</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div id="introduction">
+		<h1> Introduction </h1>
+		<img src="icon.jpg">
+		<p> Rainy bot is an utility bot. You can find informations about your favorite Anime , predict your nationality based on your name , and more features! </p>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="features">
+
+		<h1> Features </h1>
+		<p> list of rainy features</p>
 		<li> Show a cat image </li>
 		<li> Show a dog image </li>
 		<li> Show osu! player information </li>
@@ -125,23 +103,209 @@
 		<li> Tell you a joke </li>
 		<li> Predict your nationality based on your name </li>
 		<li> Predict your gender based on your name </li>
-	</div>
-	<hr class='hr'>
-	<h2> Screenshots</h4>
-	<img src="scr1.png" class='scr'>
-	<br></br>
-	<img src="scr2.png" class='scr'>
-	<br></br>
-	<img src="src3.png" class='scr'>
-	<br></br>
-	<img src="scr4.png" class='scr'>
-	<br></br>
-	<div class='credits'>
 
-		Created by Melonpan <br></br>
-		If you found a bug please use *bug [your bug report] <br></br>
-				<hr class='hr'>
-		Contact : <br></br>
-		<img src="https://cdn.iconscout.com/icon/free/png-512/discord-2474808-2056094.png" class='icons'><p style=''> Melonpan#3874</p>
 	</div>
-</div>
+	<br>
+	<br>
+	<br>
+
+	<div id="commands">
+		<h1> Commands </h1>
+	<table id="command">
+		<tr>
+			<th> Command </th>
+			<th> Function </th>
+			<th> Usage </th>
+		</tr>
+
+		<tr>
+			<td> *help</td>
+			<td> Showing help </td>
+			<td> *help </th>
+		</tr>
+
+		<tr>
+			<td> *cat</td>
+			<td> Showing cat image </td>
+			<td> *cat </th>
+		</tr>
+
+		<tr>
+			<td> *dog </td>
+			<td> Showing dog image </td>
+			<td> *dog </td>
+		</tr>
+
+		<tr>
+			<td> *invert </td>
+			<td> Invert discord user's avatar </td>
+			<td> *invert @discord user </td>
+		</tr>
+
+		<tr>
+			<td> *osu </td>
+			<td> Show osu player information </td>
+			<td> *osu [player name] </td>
+		</tr>
+
+		<tr>
+			<td> *osurecent </td>
+			<td> Osu recent play from user </td>
+			<td> *osurecent [player name]</td>
+		</tr>
+
+		<tr>
+			<td> *youtube </td>
+			<td> Fake YouTube comment image </td>
+			<td> *youtube @discord user [text]</td>
+		</tr>
+
+		<tr>
+			<td> *avatar </td>
+			<td> Show user's avatar </td>
+			<td> *avatar @discord user </td>
+		</tr>
+
+		<tr>
+			<td> *serverinfo </td>
+			<td> Show server info </td>
+			<td> *serverinfo </td>
+		</tr>
+
+		<tr>
+			<td> *channelinfo </td>
+			<td> Show channel info </td>
+			<td> *channelinfo </td>
+		</tr>
+
+		<tr>
+			<td> *kick </td>
+			<td> Kick member </td>
+			<td> *kick @discord user </td>
+		</tr>
+
+		<tr>
+			<td> *addchannel </td>
+			<td> Add channel </td>
+			<td> *addchannel [Channel name]</td>
+		</tr>
+
+		<tr>
+			<td> *removechannel </td>
+			<td> Remove channel </td>
+			<td> *removechannel #discord text channel</td>
+		</tr>
+
+		<tr>
+			<td> *ban </td>
+			<td> Ban user </td>
+			<td> *ban @discord user [reason]</td>
+		</tr>
+
+		<tr>
+			<td> *purge </td>
+			<td> Clear messages </td>
+			<td> *purge [total messages]</td>
+		</tr>
+
+		<tr>
+			<td> *translate </td>
+			<td> Translator </td>
+			<td> *translate [language source]-[language destination] [text]</td>
+		</tr>
+
+		<tr>
+			<td> *weather </td>
+			<td> Show weather </td>
+			<td> *weather [city]</td>
+		</tr>
+
+		<tr>
+			<td> *voting </td>
+			<td> Voting </td>
+			<td> *voting [text]</td>
+		</tr>
+
+		<tr>
+			<td> *github</td>
+			<td> Github user info</td>
+			<td> *github [username]</td>>
+		</tr>
+
+		<tr>
+			<td> *wikipedia </td>
+			<td> Search wikipedia </td>
+			<td> *wikipedia [query]</td>
+		</tr>
+		<tr>
+			<td> *encodebinary </td>
+			<td> Encode binary </td>
+			<td> *encodebinary [text]</td>
+		</tr>
+		<tr>
+			<td> *decodebinary </td>
+			<td> Decode binary </td>
+			<td> *decodebinary [binary] </td>
+		</tr>
+		<tr>
+			<td> *encodebase64 </td>
+			<td> Encode base64 </td>
+			<td> *encodebase64 [text] </td>
+		</tr>
+
+		<tr>
+			<td> *decodebase64 </td>
+			<td> Decode base64 </td>
+			<td> *decodebase64 [text] </td>
+		</tr>
+		<tr>
+			<td> *anime </td>
+			<td> Show anime information </td>
+			<td> *anime [anime title]</td>
+		</tr>
+		<tr>
+			<td> *bored </td>
+			<td> Find something to do if you are bored </td>
+			<td> *bored </td>
+		</tr>
+		<tr>
+			<td> *joke </td>
+			<td> Joke</td>
+			<td> *joke</td>
+		</tr>
+
+		<tr>
+			<td> *koala </td>
+			<td> Show koala image </td>
+			<td> *koala </td>
+		</tr>
+
+		<tr>
+			<td> *panda </td>
+			<td> Show panda image </td>
+			<td> *panda </td>
+		</tr>
+
+		<tr>
+			<td> *roleinfo </td>
+			<td> Show information about role </td>
+			<td> *roleinfo [role name] </td>
+		</tr>
+
+		<tr>
+			<td> *predictnamecountry </td>
+			<td> Predict your nationality based on your name </td>
+			<td> *predictnamecountry [your name] </td>
+		</tr>
+
+		<tr>
+			<td> *predictnamegender </td>
+			<td> Predict your gender based on your name </td>
+			<td> *predictnamegender [your name] </td>
+		</tr>
+
+	</table>
+	<br>
+	<br>
+	<h3> This bot was made by Melonpan#5216 </h3>
+</body>
